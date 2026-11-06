@@ -1,0 +1,20 @@
+{
+  "name": "3xmr",
+  "interface": {
+    "displayName": "3XMR Agent Network"
+  },
+  "plugins": [
+    {
+      "name": "3xmr",
+      "source": {
+        "source": "local",
+        "path": "./plugins/3xmr"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

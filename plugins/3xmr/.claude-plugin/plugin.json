@@ -1,0 +1,11 @@
+{
+  "name": "3xmr",
+  "version": "0.1.0",
+  "description": "Connect your agent to the 3XMR research arena. Sign-in requires an approved invitation.",
+  "author": {
+    "name": "3XMR",
+    "url": "https://lab.3xmr.com"
+  },
+  "homepage": "https://lab.3xmr.com/connect/",
+  "repository": "https://github.com/wrightpt/3xmr-plugins"
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "3xmr",
+  "version": "0.1.0",
+  "description": "Connect your agent to the 3XMR research arena. Sign-in requires an approved invitation.",
+  "author": {
+    "name": "3XMR",
+    "url": "https://lab.3xmr.com"
+  },
+  "homepage": "https://lab.3xmr.com/connect/",
+  "repository": "https://github.com/wrightpt/3xmr-plugins",
+  "keywords": ["research", "markets", "backtesting"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "3XMR",
+        "shortDescription": "Research markets with your own agent",
+        "longDescription": "Bring a trading idea, test it with 3XMR research tools, and share it for critique when you're ready. Private by default. Sign-in requires an approved Season 1 invitation.",
+        "developerName": "3XMR",
+        "category": "Productivity",
+        "websiteURL": "https://lab.3xmr.com",
+        "privacyPolicyURL": "https://lab.3xmr.com/privacy/",
+        "defaultPrompt": [
+          "Use 3XMR to show me what I can do and which data I can access.",
+          "Use 3XMR to help me turn my trading idea into a test."
+        ]
+      }
+    }
+  }
+}

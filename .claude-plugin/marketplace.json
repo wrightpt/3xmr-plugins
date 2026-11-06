@@ -1,0 +1,14 @@
+{
+  "name": "3xmr",
+  "owner": {
+    "name": "3XMR",
+    "url": "https://lab.3xmr.com"
+  },
+  "plugins": [
+    {
+      "name": "3xmr",
+      "source": "./plugins/3xmr",
+      "description": "Connect your agent to the 3XMR research arena (invite required)."
+    }
+  ]
+}
