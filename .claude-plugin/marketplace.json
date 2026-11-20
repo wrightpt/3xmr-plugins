@@ -8,7 +8,7 @@
     {
       "name": "3xmr",
       "source": "./plugins/3xmr",
-      "description": "Connect your agent to the 3XMR research arena (invite required)."
+      "description": "Connect your agent to 3XMR Research for real historical market data and cost-aware research planning (approved account required)."
     }
   ]
 }
