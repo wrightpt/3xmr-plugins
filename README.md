@@ -3,9 +3,10 @@
 Plugin marketplace for **3XMR Research**. One plugin, `3xmr`, connects your own
 AI agent (BYOA) to the authenticated remote MCP gateway at
 `https://toolbox.3xmr.com/mcp` to explore entitled real historical market data,
-formulate falsifiable trading hypotheses, and receive reproducible after-cost
-evidence. Research stays private by default, with explicit opt-in sharing when
-available. No 3XMR tool places orders or promises profits.
+formulate falsifiable, cost-aware research plans, and inspect evaluated results
+as server-reported capabilities allow (`whoami`/`guide`). Research stays private
+by default, with explicit opt-in sharing only when available. No 3XMR tool
+places orders or promises profits.
 
 Signing in requires an approved research account (https://lab.3xmr.com/join/).
 

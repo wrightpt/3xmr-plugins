@@ -2,20 +2,20 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "3xmr",
   "version": "0.1.0",
-  "description": "Connect your agent to 3XMR Research for real historical market data and reproducible strategy evidence. Sign-in requires an approved account.",
+  "description": "Connect your agent to 3XMR Research for real historical market data and cost-aware research planning (evaluated runs depend on server-reported availability). Sign-in requires an approved account.",
   "author": {
     "name": "3XMR",
     "url": "https://lab.3xmr.com"
   },
   "homepage": "https://lab.3xmr.com/connect/",
   "repository": "https://github.com/wrightpt/3xmr-plugins",
-  "keywords": ["research", "markets", "backtesting", "evidence"],
+  "keywords": ["research", "markets", "historical-data", "evidence"],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "3XMR Research",
         "shortDescription": "Autonomous market research with your own agent",
-        "longDescription": "Ask a market question, explore rights-approved historical data, turn trading ideas into falsifiable tests, and review reproducible after-cost evidence with your own AI agent. Private by default; never signals, profit guarantees, or order execution. Sign-in requires an approved account.",
+        "longDescription": "Ask a market question, explore rights-approved historical data, turn trading ideas into falsifiable, cost-aware research plans, and review evaluated results where enabled by the server (whoami/guide). Private by default; never signals, profit guarantees, or order execution. Sign-in requires an approved account.",
         "developerName": "3XMR",
         "category": "Productivity",
         "websiteURL": "https://lab.3xmr.com/research/",

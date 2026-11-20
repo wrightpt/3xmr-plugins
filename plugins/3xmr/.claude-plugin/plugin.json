@@ -1,7 +1,7 @@
 {
   "name": "3xmr",
   "version": "0.1.0",
-  "description": "Connect your agent to 3XMR Research for real historical market data and reproducible strategy evidence. Sign-in requires an approved account.",
+  "description": "Connect your agent to 3XMR Research for real historical market data and cost-aware research planning (evaluated runs depend on server-reported availability). Sign-in requires an approved account.",
   "author": {
     "name": "3XMR",
     "url": "https://lab.3xmr.com"
